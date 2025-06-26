@@ -20,7 +20,6 @@ body {
 
 .top1 {
     font-size: 44px;
-    line-height: 1px;
     color: #39930d;
 }
 
@@ -29,7 +28,9 @@ body {
     color: #5a5a5a;
     padding: 15px 936px 5px 185px;    
 }
-
+.top1 b {
+    padding: 5px 877px 15px 8px;
+}
 .phone {
     font-size: 22px;
     line-height: 7px;
@@ -38,20 +39,23 @@ body {
 
 .work {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-style: italic;
-    font-family: "Arial";
+    padding: 29px 29px 28px 783px;
 }
-
+.work_icon {
+    padding: 25px 10px 25px 631px;
+}
+.number_icon {
+    padding: 25px 3px 25px 780px;
+}
 .number {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-style: italic;
     text-align: right;
+    padding: 29px 135px 28px 803px;
 }
-
 
 .main_text {
     font-size: 14px;
@@ -85,6 +89,7 @@ h1 {
     background-attachment: fixed;
     background-image: url(../img/picture.png);
     max-width: 930px;
+    margin: 0 auto;
 }
 
 .contacts {
