@@ -10,14 +10,15 @@ body {
 }
 
 .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
     background-color: #fff;
-
+    padding: 0 15px;;
 }
 
 .footer {
     background-color: #39930d;
     font-size: 14px;
-    line-height: 7px;
     color: #ffffff;
     font-family: "Arial";
     padding: 14px 15px;
@@ -43,7 +44,6 @@ body {
 
 .phone {
     font-size: 22px;
-    line-height: 7px;
     color: #39930d;
 }
 
@@ -68,20 +68,19 @@ body {
 
 .main_text {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.5em;
     color: #343434;
 }
 
 h1 {
     font-size: 24px;
-    line-height: 7px;
     color: #39930d;
     font-weight: bold;
 }
 
 .menu {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
@@ -90,7 +89,7 @@ h1 {
 .partners {
     background-color: #39930d;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 2.8em;
     color: #ffffff;
 }
 
@@ -102,10 +101,10 @@ h1 {
     color: #39930d;
 }
 
-.gate {
+.main_container img {
     background-attachment: fixed;
     background-image: url(../img/picture.png);
-    max-width: 930px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
