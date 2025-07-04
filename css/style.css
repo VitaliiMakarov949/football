@@ -11,6 +11,10 @@ body {
 .header {
     padding: 15px 0;
 }
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
