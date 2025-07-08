@@ -57,8 +57,9 @@ body {
 }
 .grafic {
     display: flex;
-    Align-items: center;
+    align-items: center;
     padding: 25px 29px;
+    justify-content: space-between;
 }
 .phone {
     font-size: 22px;
@@ -72,6 +73,7 @@ body {
     max-width: 100%;
     display: flex;
     Align-items: center;
+    justify-content: space-between;
 }
 
 .gate {
@@ -133,6 +135,8 @@ h1 {
 
 .text {
     padding: 31px 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main_text p,
