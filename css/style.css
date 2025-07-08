@@ -39,6 +39,10 @@ body {
     padding: 14px 15px;
 
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
 
 .new {
     background-color: #f3f3f3;
@@ -55,6 +59,7 @@ body {
     color: #39930d;
     font-weight: bold;
 }
+
 .grafic {
     display: flex;
     align-items: center;
@@ -62,13 +67,16 @@ body {
     justify-content: space-between;
 }
 .phone {
-    font-size: 22px;
-    color: #39930d;
     display: flex;
     Align-items: center;
     padding: 25px 10px;
 }
-
+.grafic {
+    display: flex;
+    Align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 .imgfull {
     max-width: 100%;
     display: flex;
@@ -78,6 +86,7 @@ body {
 
 .gate {
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .work {
@@ -97,6 +106,9 @@ body {
     font-size: 14px;
     line-height: 1.5em;
     color: #343434;
+    min-width: 70%;
+    margin-left: 19px;
+    
 }
 
 h1 {
@@ -110,6 +122,7 @@ h1 {
     line-height: 2.1em;
     text-transform: uppercase;
     color: #39930d;
+    min-width: 30%;
 }
 
 .partners {
