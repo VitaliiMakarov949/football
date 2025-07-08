@@ -17,6 +17,7 @@ body {
 .flex-between {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .wrapper {
@@ -83,9 +84,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.img1 {
-    margin-bottom: 10px;
-}
+
 .imgfull {
     max-width: 100%;
     display: flex;
@@ -159,7 +158,7 @@ h1 {
 }
 
 .text {
-    padding: 31px 30px;
+    padding: 31px 0px 30px;
     display: flex;
     justify-content: space-between;
 }
