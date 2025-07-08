@@ -137,8 +137,6 @@ h1 {
     text-transform: uppercase;
     color: #39930d;
     min-width: 300px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .partners {
@@ -159,7 +157,7 @@ h1 {
 
 .menu ul {
     list-style: none;
-    padding: 31px 19px;
+    padding: 20px;
 }
 
 .text {
