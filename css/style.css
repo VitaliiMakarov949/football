@@ -55,7 +55,10 @@ body {
     color: #39930d;
     font-weight: bold;
 }
-
+.grafic {
+    display: flex;
+    Align-items: stretch;
+}
 .phone {
     font-size: 22px;
     color: #39930d;
