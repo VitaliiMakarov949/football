@@ -57,11 +57,15 @@ body {
 }
 .grafic {
     display: flex;
-    Align-items: stretch;
+    Align-items: center;
+    padding: 25px 29px;
 }
 .phone {
     font-size: 22px;
     color: #39930d;
+    display: flex;
+    Align-items: center;
+    padding: 25px 10px;
 }
 
 .imgfull {
