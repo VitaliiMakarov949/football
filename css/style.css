@@ -41,6 +41,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .new {
@@ -59,22 +60,31 @@ body {
     font-weight: bold;
 }
 
+.topmenu {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px   ;
+}
 .grafic {
     display: flex;
     align-items: center;
-    padding: 25px 29px;
     justify-content: space-between;
+    gap: 10px;
 }
 .phone {
     display: flex;
     Align-items: center;
-    padding: 25px 10px;
+    justify-content: space-between;
+    gap: 10px;
 }
 .grafic {
     display: flex;
-    Align-items: center;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+}
+.img1 {
+    margin-bottom: 10px;
 }
 .imgfull {
     max-width: 100%;
@@ -107,8 +117,7 @@ body {
     font-size: 14px;
     line-height: 1.5em;
     color: #343434;
-    min-width: 70%;
-    margin-left: 19px;
+    max-width: 611px;
     
 }
 
@@ -123,7 +132,9 @@ h1 {
     line-height: 2.1em;
     text-transform: uppercase;
     color: #39930d;
-    min-width: 30%;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .partners {
