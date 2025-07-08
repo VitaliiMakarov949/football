@@ -23,7 +23,6 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 15px;
-    ;
 }
 
 .bg-white {
@@ -93,6 +92,8 @@ body {
     font-size: 14px;
     color: #5a5a5a;
     font-style: italic;
+    display: flex;
+    justify-content: space-between;
 }
 
 .number {
