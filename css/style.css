@@ -43,9 +43,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 .number {
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .new {
     background-color: #f3f3f3;
