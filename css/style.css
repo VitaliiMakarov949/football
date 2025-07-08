@@ -64,11 +64,13 @@ body {
 .imgfull {
     max-width: 100%;
     display: flex;
-    Align-items: center; 
+    Align-items: center;
 }
+
 .gate {
     max-width: 100%;
 }
+
 .work {
     font-size: 14px;
     color: #5a5a5a;
@@ -100,8 +102,6 @@ h1 {
     text-transform: uppercase;
     color: #39930d;
 }
-
-.img1 {}
 
 .partners {
     background-color: #39930d;
