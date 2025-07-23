@@ -7,9 +7,14 @@
 body {
     font-family: Arial;
     background-color: #8dc63f;
+    cursor: url("../img/cursor.cur"), default;
 
 }
 
+a {
+    cursor: url(../img/cursor2.cur), default;
+    transition: all .9s ease;
+}
 .header {
     padding: 15px 0;
 }
@@ -184,4 +189,7 @@ h1 {
 
 .contacts {
     font-size: 44px;
+}
+li>a:hover {
+    color: red;
 }
