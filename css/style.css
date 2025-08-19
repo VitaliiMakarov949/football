@@ -183,6 +183,7 @@ h1 {
     padding: 31rem 0rem 30rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main_text p,
@@ -206,7 +207,9 @@ li>a:hover {
     html {
         font-size: .9px;
     }
-      
+    .text {
+        flex-wrap: nowrap;
+    }
 }
 
 @media screen and (min-width: 1024px)  {
