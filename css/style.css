@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 1px;
+}
 body {
     font-family: Arial;
     background-color: #8dc63f;
@@ -16,7 +18,8 @@ a {
     transition: all .9s ease;
 }
 .header {
-    padding: 15px 0;
+    padding: 15rem 0;
+    flex-wrap: wrap;
 }
 
 .flex-between {
@@ -27,12 +30,12 @@ a {
 .align-items {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 10rem;
 }
 .wrapper {
-    max-width: 960px;
+    max-width: 960rem;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15rem;
 }
 
 .bg-white {
@@ -42,17 +45,18 @@ a {
 
 .footer {
     background-color: #39930d;
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
     font-family: "Arial";
-    padding: 14px 15px;
+    padding: 14rem 15rem;
 
 }
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10rem;
+    flex-wrap: wrap;
 }
 .number {
     text-decoration: none;
@@ -63,13 +67,13 @@ a {
     background-color: #f3f3f3;
 }
 
-.top1 p {
-    font-size: 14px;
+.top1 {
+    font-size: 14rem;
     color: #5a5a5a;
 }
 
 .top1 b {
-    font-size: 24px;
+    font-size: 24rem;
     text-transform: uppercase;
     color: #39930d;
     font-weight: bold;
@@ -79,19 +83,20 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px   ;
+    gap: 10rem;
+    flex-wrap: wrap;
 }
 .grafic {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 10rem;
 }
 .phone {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 10rem;
 }
 .grafic {
     display: flex;
@@ -102,17 +107,20 @@ a {
 .imgfull {
     max-width: 100%;
     display: flex;
-    Align-items: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.gate {
-    max-width: 100%;
+.gate img {
     margin-bottom: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
 }
 
 .work {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
     font-style: italic;
     display: flex;
@@ -120,44 +128,46 @@ a {
 }
 
 .number {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
     font-style: italic;
     text-align: right;
 }
 
 .main_text {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
-    max-width: 611px;
+    max-width: 611rem;
+    flex-wrap: wrap-reverse;
     
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 24rem;
     color: #39930d;
     font-weight: bold;
 }
 
 .menu {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 2.1em;
     text-transform: uppercase;
     color: #39930d;
-    min-width: 300px;
+    width: 100%;
+    min-width: 200px;
 }
 
 .partners {
     background-color: #39930d;
-    font-size: 18px;
+    font-size: 18rem;
     color: #fff;
-    padding: 5px 19px;
-    max-width: 300px;
+    padding: 5rem 19rem;
+    max-width: 300rem;
 }
 
 .menu a {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
@@ -166,30 +176,68 @@ h1 {
 
 .menu ul {
     list-style: none;
-    padding: 20px;
+    padding: 20rem;
 }
 
 .text {
-    padding: 31px 0px 30px;
+    padding: 31rem 0rem 30rem;
     display: flex;
     justify-content: space-between;
 }
 
 .main_text p,
 h1 {
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
 }
 
 .main_container img {
     background-attachment: fixed;
     background-image: url(../img/picture.png);
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 .contacts {
-    font-size: 44px;
+    font-size: 44rem;
 }
 li>a:hover {
     color: red;
+}
+
+@media screen and (min-width: 768px)  {
+    html {
+        font-size: .9px;
+    }
+      
+}
+
+@media screen and (min-width: 1024px)  {
+    html {
+        font-size: 1px;
+    }
+    .main_text {
+        min-width: 599rem;
+    }  
+    .imgfull {
+        flex-wrap: nowrap;
+    }
+    .main_text {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 1440px)  {
+    html {
+        font-size: 1.1px;
+    }    
+}
+
+@media screen and (min-width: 1920px)  {
+    html {
+        font-size: 1.2px;
+    }    
+}
+
+@media screen and (min-width: 2200px)  {
+    html {
+        font-size: 1.7px;
+    }    
 }
