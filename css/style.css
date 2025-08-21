@@ -23,6 +23,7 @@ a {
 .header {
     padding: 15rem 0;
     flex-wrap: wrap;
+    gap: 30rem;
 }
 
 .flex-between {
@@ -115,21 +116,19 @@ a {
     justify-content: space-between;
 }
 
-.imgfull {
-    gap: 10px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
+.imgfull  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
 }
 
 .gate img {
-    margin-bottom: 10px;
     width: 100%;
+    min-height: 200px;
     object-fit: cover;
     object-position: 75%;
+    margin-bottom: 10rem;
 }
 
 .work {
@@ -138,6 +137,7 @@ a {
     font-style: italic;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .number {
@@ -239,11 +239,8 @@ li>a:hover {
     }
 
     .imgfull {
-        flex-wrap: nowrap;
-        display: flex;
-        justify-content: space-between;
+        grid-template-columns: repeat(4, 2fr);
         gap: 10px;
-        
     }
     .main_text {
         flex-wrap: nowrap;
@@ -254,6 +251,9 @@ li>a:hover {
 @media screen and (min-width: 1440px) {
     html {
         font-size: 1.1px;
+    }
+    .imgfull {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
