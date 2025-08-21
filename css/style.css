@@ -207,7 +207,7 @@ h1 {
 }
 
 .main_container img {
-    min-width: 100%;
+    width: 100%;
 }
 
 .contacts {
